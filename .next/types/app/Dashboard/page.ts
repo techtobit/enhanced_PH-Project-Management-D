@@ -1,8 +1,8 @@
-// File: /home/techtobit/Programming/enhanced_PH-Project-Management-D/src/app/Dashboard/page.jsx
-import * as entry from '../../../../src/app/Dashboard/page.js'
+// File: /home/techtobit/Programming/enhanced_PH-Project-Management-D/app/Dashboard/page.jsx
+import * as entry from '../../../../app/Dashboard/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
-type TEntry = typeof import('../../../../src/app/Dashboard/page.js')
+type TEntry = typeof import('../../../../app/Dashboard/page.js')
 
 // Check that the entry is a valid entry
 checkFields<Diff<{
