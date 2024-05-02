@@ -1,0 +1,78 @@
+[
+  {
+    "project_title": "Aliquam ante massa, pulvinar quis tortor non, rhoncus facilisis nisi",
+    "project_dis": "Donec auctor tortor in ornare convallis",
+    "team": [
+      {
+        "id": 1,
+        "team": "Team A",
+        "isAssinged": true
+      },
+      {
+        "id": 2,
+        "team": "Team B",
+        "isAssinged": false
+      },
+      {
+        "id": 3,
+        "team": "Team C",
+        "isAssinged": false
+      }
+    ],
+    "assing": [
+      {
+        "id": 1,
+        "member": "Jone do",
+        "isAssinged": true
+      },
+      {
+        "id": 2,
+        "member": "Xefer",
+        "isAssinged": false
+      }
+    ],
+    "currentStatus": [
+      {
+        "status": "Not Start",
+        "isActive": true
+      },
+      {
+        "status": "Progress",
+        "isActive": false
+      },
+      {
+        "status": "Done",
+        "isActive": false
+      }
+    ],
+    "tasks": [
+      {
+        "id": 1,
+        "title": "Install React TanStack Table",
+        "discription": "Headless UI for building powerful tables & datagrids. Supercharge your tables or build a datagrid from scratch for TS/JS, React, Vue, Solid & Svelte while ...",
+        "createdDate": "2024-05-01T00:00:00.000Z",
+        "endDate": "2024-05-10T00:00:00.000Z",
+        "currentStatus": [
+          {
+            "status": "Not Start",
+            "isActive": true
+          },
+          {
+            "status": "Progress",
+            "isActive": false
+          },
+          {
+            "status": "Done",
+            "isActive": false
+          }
+        ],
+        "assignedTo": 1,
+        "teamName": "Marketing Team"
+      }
+    ],
+    "activities": [],
+    "id": "1"
+  }
+
+
+  ]
